@@ -1,5 +1,7 @@
- //Write a program that asks the user to input two integers a and b
-//Then create an array that has all integer from a to b. Print out the array. 
+// Write a program that asks the user to input two integers a and b
+// Then create an array that has all integer from a to b. Print out the array
+// Pass the above array as a parameter to a method called average and return the average 
+// print it out in the main method. 
 
 import java.util.Scanner;
 public class numRangeArray
@@ -45,5 +47,18 @@ public class numRangeArray
             }
         }
         System.out.println();
+        System.out.println("The average value of the array is: "+ average(numbers));
+    }
+
+    public static double average(int [] arr)
+    {
+        double sum = 0.0;
+        for (int i = 0; i < arr.length; ++i)
+        {
+            sum += arr[i];
+        }
+
+        double avg = sum / arr.length;
+        return avg;
     }
 }
