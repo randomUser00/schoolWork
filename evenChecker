@@ -1,6 +1,4 @@
 // Takes an int (n) as parameter and returns whether n has at least one digit whose value is even. 
-// Return true if the number has at least one even digit 
-//else false if none of the digits are even.
 
 import java.util.Scanner;
 public class evenChecker
