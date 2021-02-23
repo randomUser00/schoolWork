@@ -1,4 +1,4 @@
-// adds a star after eaxh element of a string array
+// adds a star after each element of a string array
 
 public class addStar
 {
